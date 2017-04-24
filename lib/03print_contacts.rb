@@ -17,3 +17,14 @@ contacts = {
   Lenny: '444-444-4444',
   Daniel: '777-777-7777'
 }
+
+def print_contacts(contacts)
+# hash = Hash.new
+  contacts.each do |key, array|
+    p "#{key} has a phone number of #{array}"
+    key
+  end
+hash
+end
+
+print_contacts(contacts)

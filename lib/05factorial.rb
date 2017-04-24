@@ -9,3 +9,12 @@
 #
 # > 120
 #
+
+def factorial(num)
+
+  (1..num).reduce(1) do |product,n|
+    product *= n
+  end
+end
+
+p factorial(5)
